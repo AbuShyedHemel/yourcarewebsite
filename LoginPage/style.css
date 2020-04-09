@@ -1,0 +1,55 @@
+body{
+    background-color: indigo;
+}
+.topnav {
+    overflow: hidden;
+    background-color: indigo;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav a:hover{
+    border: 5px solid aquamarine;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(98, 4, 160);
+}
+.container{
+    margin-left: 35%;
+    height: 280px;
+    margin-top: 300px;
+    width: 35%;
+    background-color: rgb(196, 133, 33);
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.2);
+}
+input{
+    width: 97%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+   
+    resize: vertical;
+    padding: 10px;
+    margin: 10px;
+}
+textarea{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+button{
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,0.2);
+}

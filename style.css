@@ -1,0 +1,208 @@
+#nav_bar{
+    position: sticky;
+    top     : 0;
+    z-index : 10;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float     : right;
+    text-align: left;
+    color     : blue;
+}
+
+.navbar-nav li a:hover{
+    border: 5px solid aquamarine;
+}
+.nav_bar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-lnk{
+    
+    color      : #555!important;
+    font-weight: 600;
+    font-size  : 16px;
+}
+.aritcle1{
+   height: 700px;
+   width : 30%;
+   float : left;
+   background-color: #fff;
+}
+
+.apppic{
+  width: 70%;
+  float: right;
+  background-color: #fff;
+}
+.apppic img{
+  float : right;
+  width : 70%;
+  height: 700px;
+}
+
+
+/*--------Card........*/
+
+  #card{
+    padding-top   : 50px;
+    padding-bottom: 50px;
+    
+  }
+  
+/*-----Service---*/
+#services{
+  background-image     : linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/background.jpg');
+  background-position  : center;
+  background-size      : cover;
+  color                : #efefef!important;
+  background-attachment: fixed;
+  padding-top          : 50px;
+  padding-bottom       : 50px;
+
+}
+#services h1
+{
+  text-align    : center;
+  color         : #efefef!important;
+  padding-bottom: 10px;
+}
+#services h1::after{
+  content   : '';
+  background: #efefef;
+  display   : block;
+  height    : 3px;
+  width     : 170px;
+  margin    : 20px auto 5px;
+}
+
+
+/*Team*/
+#team{
+  
+  padding-top     : 50px;
+  padding-bottom  : 50px;
+  color           : #efefef;
+}
+h1{
+  text-align    : center;
+  color         : #555 !important;
+  padding-bottom: 10px;
+}
+h1::after{
+  content   : '';
+  background: #007bff;
+  display   : block;
+  height    : 3px;
+  width     : 170px;
+  margin    : 20px auto 5px;
+}
+.profile{
+  
+  margin-top: 25px;
+}
+.profile .img-box{
+  opacity : 1;
+  display : block;
+  position: relative;
+}
+.profile .img-box img{
+  filter: grayscale(1);
+}
+.profile .img-box img:hover{
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.profile h2{
+  font-size  : 22px;
+  font-weight: bold;
+  margin-top : 15px;
+  color      : #007bff !important;
+}
+.profile h3{
+  font-size  : 15px;
+  font-weight: bold;
+  margin-top : 15px;
+  
+}
+#team .fa{
+  height       : 25px;
+  width        : 25px;
+  color        : #007bff !important;
+  background   : #fff;
+  padding      : 4px;
+  border-radius: 50%;
+}
+.img-box ul{
+  padding  : 15px 0;
+  position : absolute;
+  z-index  : 2;
+  bottom   : 0;
+  left     : 50%;
+  transform: translateX(-50%);
+  opacity  : 0;
+}
+.img-box ul li{
+  padding: 5px;
+  display: inline-block;
+}
+.img-box:hover ul{
+  opacity: 1;
+}
+.img-box ul, .img-box ul li{
+  transition: 0.5s;
+}
+
+
+/*..Contact*/
+#contact{
+  background-image     : linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/background.png');
+  background-size      : cover;
+  background-position  : center;
+  color                : #fff;
+  background-attachment: fixed;
+  text-align           : center;
+  padding              : 100px;
+  font-family          : sans-serif;
+  font-size            : 39px;
+
+}
+
+/*......comment......*/
+#comment{
+  background-color: #efefef;
+  padding-top     : 40px;
+  padding-bottom  : 40px;
+  color           : #777;
+}
+.comment-form{
+  padding: 15px;
+}
+.form-control{
+  border-radius: 0 !important;
+  border       : none !important;
+}
+::placeholder{
+  color: #999 !important;
+}
+
+/*-------footert*/
+#footer{
+  background: #333;
+  color     : #fff;
+  padding   : 10px;
+}
+.follow{
+  background: #fff;
+  padding   : 12px;
+}
+.contact-info{
+  
+  color      : #007bff;
+  font-weight: bold;
+}

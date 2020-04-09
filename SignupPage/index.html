@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link rel     = "stylesheet" href  = "style.css">
+   
+    <title>Signup</title>
+</head>
+<body>
+    <section id    = "nav_bar">
+        <div class="topnav">
+          <a class="active" href="#home">List Of Disease</a>
+          <a href="#news">Contact</a>
+          <a href="#contact">Service</a>
+          <a href="#about">Home</a>
+        </div>  
+      </section>
+   
+    <div  class  = "container">
+    <form action = "database.php" method = "POST">
+        <h1>Signup</h1>
+    Name     <input type          = "text" name     = "name" placeholder    = "name" required><br>
+    Age      <input type          = "text" name     = "age" placeholder     = "age" required><br>
+    Email    <input type          = "email" name    = "email" placeholder   = "email" required><br>
+    Phone    Number  <input type  = "phone" name    = "phone" placeholder   = "phone number" required><br>
+    Password <input type          = "password" name = "pass" placeholder    = "password" required><br>
+    Confirm  Password <input type = "password" name = "conpass" placeholder = "confirm password" required><br>
+    Gender
+    <br><br>
+    <div   class = "magender">
+    <input type  = "radio" name = "gender" value = "male"><br>Male
+    </div>
+    <div   class = "fegender">
+    <input type  = "radio" name = "gender" value = "female">Female
+    </div>
+    
+    <br><br><p>Address</p>
+    <textarea trows = "4" name="address" cols       = "30" placeholder = "address" required > </textarea><br>
+    <input    type  = "submit" value = "Sign UP"><br>
+    <p>Already Register?Login here</p>
+</form>
+    </div>
+</body>
+</html>
